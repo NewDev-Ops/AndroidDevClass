@@ -18,6 +18,7 @@ fun main(){
   val byteMaxValue: Byte = Byte.MAX_VALUE
   val byteMinValue: Byte = Byte.MIN_VALUE
 
+  println("Byte Values")
   println(byteMaxValue)
   println(byteMinValue)
 
@@ -26,8 +27,26 @@ fun main(){
   val shortMaxValue: Short = Short.MAX_VALUE
   val shortMinValue: Short = Short.MIN_VALUE
 
+  println("Short Values")
   println(shortMaxValue)
   println(shortMinValue)
+
+  //Whole Numbers
+  val longMaxValue: Long = Long.MAX_VALUE
+  val longMinValue: Long = Long.MIN_VALUE
+
+  println("Long Values")
+  println(longMaxValue)
+  println(longMinValue)
+
+  //If no type is specified kotlin will assign it into any category that fits it, Int, Long, Short. But default type is int
+  val myNumber = 2800000000
+
+  //Ways of declaring long types
+  val myNumber3 = 28000000000
+  val myNumber2 = 12L
+
+
 
 
 }
