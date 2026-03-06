@@ -1,25 +1,16 @@
 fun main(){
-  //Variables
-  //camelCase = 'c'
+  val name: String = "Michelle"
+  val age: Int = 18
 
-  var userName: String = "Jeremy"
-  println("Hello $userName!")
+  //Reason for the grayed out string is that it is a redundant type.
 
-  //Interpreter reads line by line, from up to down
-  userName= "Blessed"
-  println("Hello $userName!")
+  println("Hello, $name. I hear you're age is $age")
+  println("Are you sure you're supposed to be here.")
 
-  //Koltin is statically typed, it checks variables at compile time not runtime
+  var max = Integer.MAX_VALUE //Maximum value that can be stored in an int
+  var min = Integer.MIN_VALUE //Minmum value that can be stored in an int
 
-  // val - value can't be changed after value is assigned to it. it's like static
-  val name: String = "Jeremy"
-  println("Hello $name!")
+  println(max)
+  println(min)
 
-  // Koltin can auto detect value types, it infers the type by the first type that is assigned to it. Meaning the first type locks it
-  var age: Int = 0
-  var ages = 10
-
-  println("$age years old")
-
-  //Use shift+f10 to run code
 }
