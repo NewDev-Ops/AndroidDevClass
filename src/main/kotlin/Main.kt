@@ -23,6 +23,11 @@ fun main(){
   println(result3++)
   println(++result3)
 
+  val isActive = true
+    //Control flow statements
+    if(isActive){
+      println("I'm active")
+    }
 
 
 }
