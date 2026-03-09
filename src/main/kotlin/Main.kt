@@ -34,7 +34,11 @@ fun main() {
   val mynum = 12
   if (mynum >= 4){
     println("It is")
-  }else{
+  }
+  else if (mynum == 12){
+    println("12")
+  }
+  else{
     println("No")
   }
 
