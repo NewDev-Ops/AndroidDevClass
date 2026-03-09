@@ -25,7 +25,8 @@ fun main() {
 
   val isActive = false
   //Control flow statements
-  if (isActive) {
+  if (isActive) //Simplified Boolean Expression
+  {
     println("I'm active")
   } else {
     println("I'm inactive")
@@ -43,6 +44,13 @@ fun main() {
   }
 
 
+  val score = 80
+
+  if(isActive && score > 90){
+    println("Keep going")
+  }else{
+    println("Try again")
+  }
 
 }
 
